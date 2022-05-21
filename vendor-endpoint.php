@@ -5,16 +5,17 @@ require_once 'lib.php';
 $method = $_SERVER['REQUEST_METHOD'];
 $path = $_SERVER['PATH_INFO'];
 
-loginfo("MOYSKLAD => APP", "Received: method=$method, path=$path");
+loginfo("MOYSKLAD => APP", "Received: method=$method, path=$path"); //  получили
 
 $pp = explode('/', $path);
 $n = count($pp);
 $appId = $pp[$n - 2];
 $accountId = $pp[$n - 1];
 
-loginfo("MOYSKLAD => APP", "Extracted: appId=$appId, accountId=$accountId");
+loginfo("MOYSKLAD => APP", "Extracted: appId=$appId, accountId=$accountId"); //извлекли
 
 $app = AppInstance::load($appId, $accountId);
+
 $replyStatus = true;
 
 switch ($method) {

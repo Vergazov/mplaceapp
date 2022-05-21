@@ -1,8 +1,8 @@
 <?php
 
-use \Firebase\JWT\JWT;
+//use \Firebase\JWT\JWT;
 
-require_once 'jwt.lib.php';
+//require_once 'jwt.lib.php';
 
 if (!isset($dirRoot)) {
     $dirRoot = '';

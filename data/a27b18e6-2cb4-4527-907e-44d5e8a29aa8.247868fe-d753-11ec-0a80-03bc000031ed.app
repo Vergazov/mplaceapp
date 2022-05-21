@@ -1,1 +1,1 @@
-O:11:"AppInstance":6:{s:5:"appId";s:36:"a27b18e6-2cb4-4527-907e-44d5e8a29aa8";s:9:"accountId";s:36:"247868fe-d753-11ec-0a80-03bc000031ed";s:11:"infoMessage";N;s:5:"store";N;s:11:"accessToken";s:40:"695c1de49d241715c8bdb9a03aacd0b8643fa74a";s:6:"status";i:1;}
+O:11:"AppInstance":6:{s:5:"appId";s:36:"a27b18e6-2cb4-4527-907e-44d5e8a29aa8";s:9:"accountId";s:36:"247868fe-d753-11ec-0a80-03bc000031ed";s:11:"infoMessage";N;s:5:"store";N;s:11:"accessToken";s:40:"2c7d748eec25e5083bda532d83e404b766de1827";s:6:"status";i:1;}
