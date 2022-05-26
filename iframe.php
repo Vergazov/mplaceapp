@@ -9,7 +9,9 @@ $app = AppInstance::loadApp($accountId);
 $infoMessage = $app->infoMessage;
 $store = $app->store;
 
-$isSettingsRequired = $app->status != AppInstance::ACTIVATED;
+$isSettingsRequired = $app->status != AppInstance::ACTIVATED; /* если они не равны, то будет true, значит настройки нужны,
+ *  если равны, то будет false значит не нужны
+ */
 
 if ($isAdmin) {
     $stores = jsonApi()->stores();
@@ -21,7 +23,3 @@ if ($isAdmin) {
 
 require 'iframe.html.php';
 
-//$ch = curl_init('https://online.moysklad.ru/api/remap/1.2/entity/webhook');
-//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//curl_setopt($ch,CURLOPT_HTTPAUTH,CURLAUTH_BASIC);
-//curl_setopt($ch, CURLOPT_USERPWD, "admin@sloudel15:goodmorning22");

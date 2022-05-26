@@ -1,0 +1,616 @@
+2022-05-25T11:01:18+00:00 [IFRAME] Loaded iframe with contextKey: aea3802c304207ffecb8ded744c93d692a8e097b
+2022-05-25T11:01:18+00:00 [APP => MOYSKLAD] Send: POST https://online.moysklad.ru/api/vendor/1.0/context/aea3802c304207ffecb8ded744c93d692a8e097b
+
+2022-05-25T11:01:20+00:00 [APP => MOYSKLAD] Send: GET https://online.moysklad.ru/api/remap/1.2/entity/store
+
+2022-05-25T11:02:05+00:00 [MOYSKLAD => APP] Received: method=DELETE, path=/api/moysklad/vendor/1.0/apps/a27b18e6-2cb4-4527-907e-44d5e8a29aa8/247868fe-d753-11ec-0a80-03bc000031ed
+2022-05-25T11:02:05+00:00 [MOYSKLAD => APP] Extracted: appId=a27b18e6-2cb4-4527-907e-44d5e8a29aa8, accountId=247868fe-d753-11ec-0a80-03bc000031ed
+2022-05-25T11:02:06+00:00 [MOYSKLAD => APP] Received: method=PUT, path=/api/moysklad/vendor/1.0/apps/a27b18e6-2cb4-4527-907e-44d5e8a29aa8/247868fe-d753-11ec-0a80-03bc000031ed
+2022-05-25T11:02:06+00:00 [MOYSKLAD => APP] Extracted: appId=a27b18e6-2cb4-4527-907e-44d5e8a29aa8, accountId=247868fe-d753-11ec-0a80-03bc000031ed
+2022-05-25T11:02:06+00:00 [MOYSKLAD => APP] Request body: {"appUid":"dev5.sorochinsky","accountName":"sloudel15","access":[{"resource":"https://online.moysklad.ru/api/remap/1.2/","scope":["admin"],"permissions":null,"access_token":"1ce64d631c5378081b19016fab5132ed50d7e765"}],"cause":"Install"}
+2022-05-25T11:02:06+00:00 [MOYSKLAD => APP] Received access_token: appUid=dev5.sorochinsky, access_token=1ce64d631c5378081b19016fab5132ed50d7e765)
+2022-05-25T11:02:08+00:00 [IFRAME] Loaded iframe with contextKey: 95bd3b8825cedecc2043deac343135cdd81af435
+2022-05-25T11:02:08+00:00 [APP => MOYSKLAD] Send: POST https://online.moysklad.ru/api/vendor/1.0/context/95bd3b8825cedecc2043deac343135cdd81af435
+
+2022-05-25T11:02:08+00:00 [APP => MOYSKLAD] Send: GET https://online.moysklad.ru/api/remap/1.2/entity/store
+
+2022-05-25T11:02:27+00:00 [IFRAME] Loaded iframe with contextKey: 2aff30d753dbbf0551540ca6fbea7a51d2ed4762
+2022-05-25T11:02:27+00:00 [APP => MOYSKLAD] Send: POST https://online.moysklad.ru/api/vendor/1.0/context/2aff30d753dbbf0551540ca6fbea7a51d2ed4762
+
+2022-05-25T11:02:27+00:00 [APP => MOYSKLAD] Send: GET https://online.moysklad.ru/api/remap/1.2/entity/store
+
+2022-05-25T11:03:24+00:00 [MOYSKLAD => APP] Received: method=DELETE, path=/api/moysklad/vendor/1.0/apps/a27b18e6-2cb4-4527-907e-44d5e8a29aa8/247868fe-d753-11ec-0a80-03bc000031ed
+2022-05-25T11:03:24+00:00 [MOYSKLAD => APP] Extracted: appId=a27b18e6-2cb4-4527-907e-44d5e8a29aa8, accountId=247868fe-d753-11ec-0a80-03bc000031ed
+2022-05-25T11:03:24+00:00 [MOYSKLAD => APP] Received: method=PUT, path=/api/moysklad/vendor/1.0/apps/a27b18e6-2cb4-4527-907e-44d5e8a29aa8/247868fe-d753-11ec-0a80-03bc000031ed
+2022-05-25T11:03:24+00:00 [MOYSKLAD => APP] Extracted: appId=a27b18e6-2cb4-4527-907e-44d5e8a29aa8, accountId=247868fe-d753-11ec-0a80-03bc000031ed
+2022-05-25T11:03:24+00:00 [MOYSKLAD => APP] Request body: {"appUid":"dev5.sorochinsky","accountName":"sloudel15","access":[{"resource":"https://online.moysklad.ru/api/remap/1.2/","scope":["admin"],"permissions":null,"access_token":"afebb0c09940671063b798d6dc33fb1459b46969"}],"cause":"Install"}
+2022-05-25T11:03:24+00:00 [MOYSKLAD => APP] Received access_token: appUid=dev5.sorochinsky, access_token=afebb0c09940671063b798d6dc33fb1459b46969)
+2022-05-25T11:03:25+00:00 [IFRAME] Loaded iframe with contextKey: e73c7e6f4bb331cc21c0a6364e6871b5a57be6a0
+2022-05-25T11:03:25+00:00 [APP => MOYSKLAD] Send: POST https://online.moysklad.ru/api/vendor/1.0/context/e73c7e6f4bb331cc21c0a6364e6871b5a57be6a0
+
+2022-05-25T11:03:26+00:00 [[TEST]: ] {
+  "meta" : {
+    "href" : "https://online.moysklad.ru/api/remap/1.2/entity/employee/24a08428-d753-11ec-0a80-06ab00089cf1?expand=cashier.retailStore",
+    "metadataHref" : "https://online.moysklad.ru/api/remap/1.2/entity/employee/metadata",
+    "type" : "employee",
+    "mediaType" : "application/json",
+    "uuidHref" : "https://online.moysklad.ru/app/#employee/edit?id=24a08428-d753-11ec-0a80-06ab00089cf1"
+  },
+  "id" : "24a08428-d753-11ec-0a80-06ab00089cf1",
+  "accountId" : "247868fe-d753-11ec-0a80-03bc000031ed",
+  "owner" : {
+    "meta" : {
+      "href" : "https://online.moysklad.ru/api/remap/1.2/entity/employee/24a08428-d753-11ec-0a80-06ab00089cf1",
+      "metadataHref" : "https://online.moysklad.ru/api/remap/1.2/entity/employee/metadata",
+      "type" : "employee",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#employee/edit?id=24a08428-d753-11ec-0a80-06ab00089cf1"
+    }
+  },
+  "shared" : true,
+  "group" : {
+    "meta" : {
+      "href" : "https://online.moysklad.ru/api/remap/1.2/entity/group/2478fec4-d753-11ec-0a80-03bc000031ee",
+      "metadataHref" : "https://online.moysklad.ru/api/remap/1.2/entity/group/metadata",
+      "type" : "group",
+      "mediaType" : "application/json"
+    }
+  },
+  "updated" : "2022-05-19 12:07:43.838",
+  "name" : "Разработчик",
+  "externalCode" : "hauZGMRWiCt-c3pIupzMQ2",
+  "archived" : false,
+  "created" : "2022-05-19 12:07:43.838",
+  "uid" : "admin@sloudel15",
+  "email" : "sloudel@yandex.ru",
+  "lastName" : "Разработчик",
+  "fullName" : "Разработчик",
+  "shortFio" : "Разработчик",
+  "cashiers" : [ {
+    "meta" : {
+      "href" : "https://online.moysklad.ru/api/remap/1.2/entity/retailstore/24c6c945-d753-11ec-0a80-06ab00089d4b/cashiers/24c6cdc3-d753-11ec-0a80-06ab00089d4c",
+      "type" : "cashier",
+      "mediaType" : "application/json"
+    }
+  } ],
+  "permissions" : {
+    "currency" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "uom" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "productfolder" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "product" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "bundle" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "service" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "consignment" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "variant" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "store" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "counterparty" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "organization" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "employee" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "settings" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "contract" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "project" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "saleschannel" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "country" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "customentity" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "demand" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "customerorder" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "internalorder" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "invoiceout" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "invoicein" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "paymentin" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "paymentout" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "cashin" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "cashout" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "supply" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "salesreturn" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "purchasereturn" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "retailstore" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "receipttemplate" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "retailstorestatus" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "retailshift" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "retaildemand" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "retailsalesreturn" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "retaildrawercashin" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "retaildrawercashout" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "prepayment" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "prepaymentreturn" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "purchaseorder" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "move" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "enter" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "loss" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "facturein" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "factureout" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "commissionreportin" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "commissionreportout" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "pricelist" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "processingplanfolder" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "processingplan" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "processing" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "processingorder" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "counterpartyadjustment" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "assortment" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "inventory" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "bonustransaction" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "crptorder" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "productiontask" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "approve" : "ALL",
+      "print" : "ALL"
+    },
+    "productionstagecompletion" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "print" : "ALL"
+    },
+    "webhook" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL"
+    },
+    "task" : {
+      "view" : "ALL",
+      "create" : "ALL",
+      "update" : "ALL",
+      "delete" : "ALL",
+      "done" : "ALL"
+    },
+    "dashboard" : {
+      "view" : "ALL"
+    },
+    "stock" : {
+      "view" : "ALL"
+    },
+    "customAttributes" : {
+      "view" : "ALL"
+    },
+    "pnl" : {
+      "view" : "ALL"
+    },
+    "company_crm" : {
+      "view" : "ALL"
+    },
+    "tariff_crm" : {
+      "view" : "ALL"
+    },
+    "audit_dashboard" : {
+      "view" : "ALL"
+    },
+    "admin" : {
+      "view" : "ALL"
+    },
+    "dashboardMoney" : {
+      "view" : "ALL"
+    },
+    "viewCashFlow" : {
+      "view" : "ALL"
+    }
+  }
+}
+2022-05-25T11:03:26+00:00 [APP => MOYSKLAD] Send: GET https://online.moysklad.ru/api/remap/1.2/entity/store
+
+2022-05-25T11:03:26+00:00 [[TEST]: ] {
+  "context" : {
+    "employee" : {
+      "meta" : {
+        "href" : "https://online.moysklad.ru/api/remap/1.2/context/application",
+        "metadataHref" : "https://online.moysklad.ru/api/remap/1.2/entity/application/metadata",
+        "type" : "application",
+        "mediaType" : "application/json"
+      }
+    }
+  },
+  "meta" : {
+    "href" : "https://online.moysklad.ru/api/remap/1.2/entity/store",
+    "type" : "store",
+    "mediaType" : "application/json",
+    "size" : 1,
+    "limit" : 1000,
+    "offset" : 0
+  },
+  "rows" : [ {
+    "meta" : {
+      "href" : "https://online.moysklad.ru/api/remap/1.2/entity/store/24b7006d-d753-11ec-0a80-06ab00089d35",
+      "metadataHref" : "https://online.moysklad.ru/api/remap/1.2/entity/store/metadata",
+      "type" : "store",
+      "mediaType" : "application/json",
+      "uuidHref" : "https://online.moysklad.ru/app/#warehouse/edit?id=24b7006d-d753-11ec-0a80-06ab00089d35"
+    },
+    "id" : "24b7006d-d753-11ec-0a80-06ab00089d35",
+    "accountId" : "247868fe-d753-11ec-0a80-03bc000031ed",
+    "owner" : {
+      "meta" : {
+        "href" : "https://online.moysklad.ru/api/remap/1.2/entity/employee/24a08428-d753-11ec-0a80-06ab00089cf1",
+        "metadataHref" : "https://online.moysklad.ru/api/remap/1.2/entity/employee/metadata",
+        "type" : "employee",
+        "mediaType" : "application/json",
+        "uuidHref" : "https://online.moysklad.ru/app/#employee/edit?id=24a08428-d753-11ec-0a80-06ab00089cf1"
+      }
+    },
+    "shared" : false,
+    "group" : {
+      "meta" : {
+        "href" : "https://online.moysklad.ru/api/remap/1.2/entity/group/2478fec4-d753-11ec-0a80-03bc000031ee",
+        "metadataHref" : "https://online.moysklad.ru/api/remap/1.2/entity/group/metadata",
+        "type" : "group",
+        "mediaType" : "application/json"
+      }
+    },
+    "updated" : "2022-05-19 12:07:43.987",
+    "name" : "Основной склад",
+    "externalCode" : "PSXFB1GDh0yrtX3oxILMn3",
+    "archived" : false,
+    "pathName" : "",
+    "address" : ""
+  } ]
+}
