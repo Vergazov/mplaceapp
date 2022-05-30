@@ -24,3 +24,5 @@ $app->status = AppInstance::ACTIVATED;
 $app->persist();
 
 echo 'Настройки обновлены, перезагрузите приложение';
+
+

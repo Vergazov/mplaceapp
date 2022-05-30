@@ -1,4 +1,4 @@
-<?php
+г <?php
 
 use \Firebase\JWT\JWT;
 
@@ -38,7 +38,7 @@ function cfg(): AppConfig {
 }
 
 //
-//  Vendor API 1.0
+//  Vendor API 1.0 класс для получения инфы о пользователе
 //
 
 class VendorApi {

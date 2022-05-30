@@ -5,9 +5,9 @@
         <group>
             <file>file:/C:/xampp/htdocs/mplaceapp/iframe.php</file>
             <file>file:/C:/xampp/htdocs/mplaceapp/lib.php</file>
-            <file>file:/C:/xampp/htdocs/mplaceapp/update-settings.php</file>
+            <file>file:/C:/xampp/htdocs/mplaceapp/vendor-endpoint.php</file>
             <file>file:/C:/xampp/htdocs/mplaceapp/user-context-loader.inc.php</file>
-            <file>file:/C:/xampp/htdocs/mplaceapp/iframe.html.php</file>
+            <file>file:/C:/xampp/htdocs/mplaceapp/logs/log.txt</file>
         </group>
     </open-files>
 </project-private>
